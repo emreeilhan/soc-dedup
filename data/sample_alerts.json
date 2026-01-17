@@ -1,0 +1,652 @@
+[
+  {
+    "alert_type": "Port Scan",
+    "dest_ip": "10.0.0.10",
+    "host": "scanner-1",
+    "mitre_technique": "T1046",
+    "severity": "low",
+    "src_ip": "10.0.0.5",
+    "timestamp": "2024-01-01T00:00:00Z",
+    "user": "svc_scanner"
+  },
+  {
+    "alert_type": "Port Scan",
+    "dest_ip": "10.0.0.10",
+    "host": "scanner-1",
+    "mitre_technique": "T1046",
+    "severity": "low",
+    "src_ip": "10.0.0.5",
+    "timestamp": "2024-01-01T00:01:00Z",
+    "user": "svc_scanner"
+  },
+  {
+    "alert_type": "Port Scan",
+    "dest_ip": "10.0.0.10",
+    "host": "scanner-1",
+    "mitre_technique": "T1046",
+    "severity": "low",
+    "src_ip": "10.0.0.5",
+    "timestamp": "2024-01-01T00:02:00Z",
+    "user": "svc_scanner"
+  },
+  {
+    "alert_type": "Port Scan",
+    "dest_ip": "10.0.0.10",
+    "host": "scanner-1",
+    "mitre_technique": "T1046",
+    "severity": "low",
+    "src_ip": "10.0.0.5",
+    "timestamp": "2024-01-01T00:03:00Z",
+    "user": "svc_scanner"
+  },
+  {
+    "alert_type": "Port Scan",
+    "dest_ip": "10.0.0.10",
+    "host": "scanner-1",
+    "mitre_technique": "T1046",
+    "severity": "low",
+    "src_ip": "10.0.0.5",
+    "timestamp": "2024-01-01T00:04:00Z",
+    "user": "svc_scanner"
+  },
+  {
+    "alert_type": "Port Scan",
+    "dest_ip": "10.0.0.10",
+    "host": "scanner-1",
+    "mitre_technique": "T1046",
+    "severity": "low",
+    "src_ip": "10.0.0.5",
+    "timestamp": "2024-01-01T00:05:00Z",
+    "user": "svc_scanner"
+  },
+  {
+    "alert_type": "Port Scan",
+    "dest_ip": "10.0.0.10",
+    "host": "scanner-1",
+    "mitre_technique": "T1046",
+    "severity": "low",
+    "src_ip": "10.0.0.5",
+    "timestamp": "2024-01-01T00:06:00Z",
+    "user": "svc_scanner"
+  },
+  {
+    "alert_type": "Port Scan",
+    "dest_ip": "10.0.0.10",
+    "host": "scanner-1",
+    "mitre_technique": "T1046",
+    "severity": "low",
+    "src_ip": "10.0.0.5",
+    "timestamp": "2024-01-01T00:07:00Z",
+    "user": "svc_scanner"
+  },
+  {
+    "alert_type": "Port Scan",
+    "dest_ip": "10.0.0.10",
+    "host": "scanner-1",
+    "mitre_technique": "T1046",
+    "severity": "low",
+    "src_ip": "10.0.0.5",
+    "timestamp": "2024-01-01T00:08:00Z",
+    "user": "svc_scanner"
+  },
+  {
+    "alert_type": "Port Scan",
+    "dest_ip": "10.0.0.10",
+    "host": "scanner-1",
+    "mitre_technique": "T1046",
+    "severity": "low",
+    "src_ip": "10.0.0.5",
+    "timestamp": "2024-01-01T00:09:00Z",
+    "user": "svc_scanner"
+  },
+  {
+    "alert_type": "Port Scan",
+    "dest_ip": "10.0.0.10",
+    "host": "scanner-1",
+    "mitre_technique": "T1046",
+    "severity": "low",
+    "src_ip": "10.0.0.5",
+    "timestamp": "2024-01-01T00:00:00Z",
+    "user": "svc_scanner"
+  },
+  {
+    "alert_type": "Port Scan",
+    "dest_ip": "10.0.0.10",
+    "host": "scanner-1",
+    "mitre_technique": "T1046",
+    "severity": "low",
+    "src_ip": "10.0.0.5",
+    "timestamp": "2024-01-01T00:01:00Z",
+    "user": "svc_scanner"
+  },
+  {
+    "alert_type": "Port Scan",
+    "dest_ip": "10.0.0.10",
+    "host": "scanner-1",
+    "mitre_technique": "T1046",
+    "severity": "low",
+    "src_ip": "10.0.0.5",
+    "timestamp": "2024-01-01T00:02:00Z",
+    "user": "svc_scanner"
+  },
+  {
+    "alert_type": "Port Scan",
+    "dest_ip": "10.0.0.10",
+    "host": "scanner-1",
+    "mitre_technique": "T1046",
+    "severity": "low",
+    "src_ip": "10.0.0.5",
+    "timestamp": "2024-01-01T00:03:00Z",
+    "user": "svc_scanner"
+  },
+  {
+    "alert_type": "Port Scan",
+    "dest_ip": "10.0.0.10",
+    "host": "scanner-1",
+    "mitre_technique": "T1046",
+    "severity": "low",
+    "src_ip": "10.0.0.5",
+    "timestamp": "2024-01-01T00:04:00Z",
+    "user": "svc_scanner"
+  },
+  {
+    "alert_type": "Port Scan",
+    "dest_ip": "10.0.0.10",
+    "host": "scanner-1",
+    "mitre_technique": "T1046",
+    "severity": "low",
+    "src_ip": "10.0.0.5",
+    "timestamp": "2024-01-01T00:05:00Z",
+    "user": "svc_scanner"
+  },
+  {
+    "alert_type": "Port Scan",
+    "dest_ip": "10.0.0.10",
+    "host": "scanner-1",
+    "mitre_technique": "T1046",
+    "severity": "low",
+    "src_ip": "10.0.0.5",
+    "timestamp": "2024-01-01T00:06:00Z",
+    "user": "svc_scanner"
+  },
+  {
+    "alert_type": "Port Scan",
+    "dest_ip": "10.0.0.10",
+    "host": "scanner-1",
+    "mitre_technique": "T1046",
+    "severity": "low",
+    "src_ip": "10.0.0.5",
+    "timestamp": "2024-01-01T00:07:00Z",
+    "user": "svc_scanner"
+  },
+  {
+    "alert_type": "Port Scan",
+    "dest_ip": "10.0.0.10",
+    "host": "scanner-1",
+    "mitre_technique": "T1046",
+    "severity": "low",
+    "src_ip": "10.0.0.5",
+    "timestamp": "2024-01-01T00:08:00Z",
+    "user": "svc_scanner"
+  },
+  {
+    "alert_type": "Port Scan",
+    "dest_ip": "10.0.0.10",
+    "host": "scanner-1",
+    "mitre_technique": "T1046",
+    "severity": "low",
+    "src_ip": "10.0.0.5",
+    "timestamp": "2024-01-01T00:09:00Z",
+    "user": "svc_scanner"
+  },
+  {
+    "alert_type": "Port Scan",
+    "dest_ip": "10.0.0.10",
+    "host": "scanner-1",
+    "mitre_technique": "T1046",
+    "severity": "low",
+    "src_ip": "10.0.0.5",
+    "timestamp": "2024-01-01T00:00:00Z",
+    "user": "svc_scanner"
+  },
+  {
+    "alert_type": "Port Scan",
+    "dest_ip": "10.0.0.10",
+    "host": "scanner-1",
+    "mitre_technique": "T1046",
+    "severity": "low",
+    "src_ip": "10.0.0.5",
+    "timestamp": "2024-01-01T00:01:00Z",
+    "user": "svc_scanner"
+  },
+  {
+    "alert_type": "Port Scan",
+    "dest_ip": "10.0.0.10",
+    "host": "scanner-1",
+    "mitre_technique": "T1046",
+    "severity": "low",
+    "src_ip": "10.0.0.5",
+    "timestamp": "2024-01-01T00:02:00Z",
+    "user": "svc_scanner"
+  },
+  {
+    "alert_type": "Port Scan",
+    "dest_ip": "10.0.0.10",
+    "host": "scanner-1",
+    "mitre_technique": "T1046",
+    "severity": "low",
+    "src_ip": "10.0.0.5",
+    "timestamp": "2024-01-01T00:03:00Z",
+    "user": "svc_scanner"
+  },
+  {
+    "alert_type": "Port Scan",
+    "dest_ip": "10.0.0.10",
+    "host": "scanner-1",
+    "mitre_technique": "T1046",
+    "severity": "low",
+    "src_ip": "10.0.0.5",
+    "timestamp": "2024-01-01T00:04:00Z",
+    "user": "svc_scanner"
+  },
+  {
+    "alert_type": "Failed Login",
+    "dest_ip": "10.0.1.20",
+    "failure_count": 5,
+    "host": "auth-1",
+    "mitre_technique": "T1110.003",
+    "source_ip": "203.0.113.55",
+    "timestamp": "2024-01-01T00:20:00Z",
+    "username": "user0"
+  },
+  {
+    "alert_type": "Failed Login",
+    "dest_ip": "10.0.1.20",
+    "failure_count": 5,
+    "host": "auth-1",
+    "mitre_technique": "T1110.003",
+    "source_ip": "203.0.113.55",
+    "timestamp": "2024-01-01T00:21:00Z",
+    "username": "user1"
+  },
+  {
+    "alert_type": "Failed Login",
+    "dest_ip": "10.0.1.20",
+    "failure_count": 5,
+    "host": "auth-1",
+    "mitre_technique": "T1110.003",
+    "source_ip": "203.0.113.55",
+    "timestamp": "2024-01-01T00:22:00Z",
+    "username": "user2"
+  },
+  {
+    "alert_type": "Failed Login",
+    "dest_ip": "10.0.1.20",
+    "failure_count": 5,
+    "host": "auth-1",
+    "mitre_technique": "T1110.003",
+    "source_ip": "203.0.113.55",
+    "timestamp": "2024-01-01T00:23:00Z",
+    "username": "user3"
+  },
+  {
+    "alert_type": "Failed Login",
+    "dest_ip": "10.0.1.20",
+    "failure_count": 5,
+    "host": "auth-1",
+    "mitre_technique": "T1110.003",
+    "source_ip": "203.0.113.55",
+    "timestamp": "2024-01-01T00:24:00Z",
+    "username": "user4"
+  },
+  {
+    "alert_type": "Failed Login",
+    "dest_ip": "10.0.1.20",
+    "failure_count": 5,
+    "host": "auth-1",
+    "mitre_technique": "T1110.003",
+    "source_ip": "203.0.113.55",
+    "timestamp": "2024-01-01T00:25:00Z",
+    "username": "user5"
+  },
+  {
+    "alert_type": "Failed Login",
+    "dest_ip": "10.0.1.20",
+    "failure_count": 5,
+    "host": "auth-1",
+    "mitre_technique": "T1110.003",
+    "source_ip": "203.0.113.55",
+    "timestamp": "2024-01-01T00:26:00Z",
+    "username": "user6"
+  },
+  {
+    "alert_type": "Failed Login",
+    "dest_ip": "10.0.1.20",
+    "failure_count": 5,
+    "host": "auth-1",
+    "mitre_technique": "T1110.003",
+    "source_ip": "203.0.113.55",
+    "timestamp": "2024-01-01T00:27:00Z",
+    "username": "user7"
+  },
+  {
+    "alert_type": "Failed Login",
+    "dest_ip": "10.0.1.20",
+    "failure_count": 5,
+    "host": "auth-1",
+    "mitre_technique": "T1110.003",
+    "source_ip": "203.0.113.55",
+    "timestamp": "2024-01-01T00:28:00Z",
+    "username": "user0"
+  },
+  {
+    "alert_type": "Failed Login",
+    "dest_ip": "10.0.1.20",
+    "failure_count": 5,
+    "host": "auth-1",
+    "mitre_technique": "T1110.003",
+    "source_ip": "203.0.113.55",
+    "timestamp": "2024-01-01T00:29:00Z",
+    "username": "user1"
+  },
+  {
+    "alert_type": "Failed Login",
+    "dest_ip": "10.0.1.20",
+    "failure_count": 5,
+    "host": "auth-1",
+    "mitre_technique": "T1110.003",
+    "source_ip": "203.0.113.55",
+    "timestamp": "2024-01-01T00:20:00Z",
+    "username": "user2"
+  },
+  {
+    "alert_type": "Failed Login",
+    "dest_ip": "10.0.1.20",
+    "failure_count": 5,
+    "host": "auth-1",
+    "mitre_technique": "T1110.003",
+    "source_ip": "203.0.113.55",
+    "timestamp": "2024-01-01T00:21:00Z",
+    "username": "user3"
+  },
+  {
+    "alert_type": "Failed Login",
+    "dest_ip": "10.0.1.20",
+    "failure_count": 5,
+    "host": "auth-1",
+    "mitre_technique": "T1110.003",
+    "source_ip": "203.0.113.55",
+    "timestamp": "2024-01-01T00:22:00Z",
+    "username": "user4"
+  },
+  {
+    "alert_type": "Failed Login",
+    "dest_ip": "10.0.1.20",
+    "failure_count": 5,
+    "host": "auth-1",
+    "mitre_technique": "T1110.003",
+    "source_ip": "203.0.113.55",
+    "timestamp": "2024-01-01T00:23:00Z",
+    "username": "user5"
+  },
+  {
+    "alert_type": "Failed Login",
+    "dest_ip": "10.0.1.20",
+    "failure_count": 5,
+    "host": "auth-1",
+    "mitre_technique": "T1110.003",
+    "source_ip": "203.0.113.55",
+    "timestamp": "2024-01-01T00:24:00Z",
+    "username": "user6"
+  },
+  {
+    "alert_type": "Failed Login",
+    "dest_ip": "10.0.1.20",
+    "failure_count": 5,
+    "host": "auth-1",
+    "mitre_technique": "T1110.003",
+    "source_ip": "203.0.113.55",
+    "timestamp": "2024-01-01T00:25:00Z",
+    "username": "user7"
+  },
+  {
+    "alert_type": "Failed Login",
+    "dest_ip": "10.0.1.20",
+    "failure_count": 5,
+    "host": "auth-1",
+    "mitre_technique": "T1110.003",
+    "source_ip": "203.0.113.55",
+    "timestamp": "2024-01-01T00:26:00Z",
+    "username": "user0"
+  },
+  {
+    "alert_type": "Failed Login",
+    "dest_ip": "10.0.1.20",
+    "failure_count": 5,
+    "host": "auth-1",
+    "mitre_technique": "T1110.003",
+    "source_ip": "203.0.113.55",
+    "timestamp": "2024-01-01T00:27:00Z",
+    "username": "user1"
+  },
+  {
+    "alert_type": "Failed Login",
+    "dest_ip": "10.0.1.20",
+    "failure_count": 5,
+    "host": "auth-1",
+    "mitre_technique": "T1110.003",
+    "source_ip": "203.0.113.55",
+    "timestamp": "2024-01-01T00:28:00Z",
+    "username": "user2"
+  },
+  {
+    "alert_type": "Failed Login",
+    "dest_ip": "10.0.1.20",
+    "failure_count": 5,
+    "host": "auth-1",
+    "mitre_technique": "T1110.003",
+    "source_ip": "203.0.113.55",
+    "timestamp": "2024-01-01T00:29:00Z",
+    "username": "user3"
+  },
+  {
+    "account": "admin_ops",
+    "alert_type": "Remote Service Execution",
+    "command": "psexec",
+    "dest_ip": "10.0.2.60",
+    "hostname": "server-0",
+    "ip": "10.0.2.50",
+    "mitre_technique": "T1021",
+    "timestamp": "2024-01-01T00:40:00Z"
+  },
+  {
+    "account": "admin_ops",
+    "alert_type": "Remote Service Execution",
+    "command": "psexec",
+    "dest_ip": "10.0.2.61",
+    "hostname": "server-1",
+    "ip": "10.0.2.50",
+    "mitre_technique": "T1021",
+    "timestamp": "2024-01-01T00:41:00Z"
+  },
+  {
+    "account": "admin_ops",
+    "alert_type": "Remote Service Execution",
+    "command": "psexec",
+    "dest_ip": "10.0.2.62",
+    "hostname": "server-2",
+    "ip": "10.0.2.50",
+    "mitre_technique": "T1021",
+    "timestamp": "2024-01-01T00:42:00Z"
+  },
+  {
+    "account": "admin_ops",
+    "alert_type": "Remote Service Execution",
+    "command": "psexec",
+    "dest_ip": "10.0.2.63",
+    "hostname": "server-3",
+    "ip": "10.0.2.50",
+    "mitre_technique": "T1021",
+    "timestamp": "2024-01-01T00:43:00Z"
+  },
+  {
+    "account": "admin_ops",
+    "alert_type": "Remote Service Execution",
+    "command": "psexec",
+    "dest_ip": "10.0.2.64",
+    "hostname": "server-4",
+    "ip": "10.0.2.50",
+    "mitre_technique": "T1021",
+    "timestamp": "2024-01-01T00:44:00Z"
+  },
+  {
+    "account": "admin_ops",
+    "alert_type": "Remote Service Execution",
+    "command": "psexec",
+    "dest_ip": "10.0.2.65",
+    "hostname": "server-5",
+    "ip": "10.0.2.50",
+    "mitre_technique": "T1021",
+    "timestamp": "2024-01-01T00:45:00Z"
+  },
+  {
+    "account": "admin_ops",
+    "alert_type": "Remote Service Execution",
+    "command": "psexec",
+    "dest_ip": "10.0.2.66",
+    "hostname": "server-6",
+    "ip": "10.0.2.50",
+    "mitre_technique": "T1021",
+    "timestamp": "2024-01-01T00:46:00Z"
+  },
+  {
+    "account": "admin_ops",
+    "alert_type": "Remote Service Execution",
+    "command": "psexec",
+    "dest_ip": "10.0.2.67",
+    "hostname": "server-7",
+    "ip": "10.0.2.50",
+    "mitre_technique": "T1021",
+    "timestamp": "2024-01-01T00:47:00Z"
+  },
+  {
+    "account": "admin_ops",
+    "alert_type": "Remote Service Execution",
+    "command": "psexec",
+    "dest_ip": "10.0.2.68",
+    "hostname": "server-8",
+    "ip": "10.0.2.50",
+    "mitre_technique": "T1021",
+    "timestamp": "2024-01-01T00:48:00Z"
+  },
+  {
+    "account": "admin_ops",
+    "alert_type": "Remote Service Execution",
+    "command": "psexec",
+    "dest_ip": "10.0.2.69",
+    "hostname": "server-9",
+    "ip": "10.0.2.50",
+    "mitre_technique": "T1021",
+    "timestamp": "2024-01-01T00:49:00Z"
+  },
+  {
+    "account": "admin_ops",
+    "alert_type": "Remote Service Execution",
+    "command": "psexec",
+    "dest_ip": "10.0.2.70",
+    "hostname": "server-10",
+    "ip": "10.0.2.50",
+    "mitre_technique": "T1021",
+    "timestamp": "2024-01-01T00:50:00Z"
+  },
+  {
+    "account": "admin_ops",
+    "alert_type": "Remote Service Execution",
+    "command": "psexec",
+    "dest_ip": "10.0.2.71",
+    "hostname": "server-11",
+    "ip": "10.0.2.50",
+    "mitre_technique": "T1021",
+    "timestamp": "2024-01-01T00:51:00Z"
+  },
+  {
+    "account": "admin_ops",
+    "alert_type": "Remote Service Execution",
+    "command": "psexec",
+    "dest_ip": "10.0.2.60",
+    "hostname": "server-0",
+    "ip": "10.0.2.50",
+    "mitre_technique": "T1021",
+    "timestamp": "2024-01-01T00:40:00Z"
+  },
+  {
+    "account": "admin_ops",
+    "alert_type": "Remote Service Execution",
+    "command": "psexec",
+    "dest_ip": "10.0.2.61",
+    "hostname": "server-1",
+    "ip": "10.0.2.50",
+    "mitre_technique": "T1021",
+    "timestamp": "2024-01-01T00:41:00Z"
+  },
+  {
+    "account": "admin_ops",
+    "alert_type": "Remote Service Execution",
+    "command": "psexec",
+    "dest_ip": "10.0.2.62",
+    "hostname": "server-2",
+    "ip": "10.0.2.50",
+    "mitre_technique": "T1021",
+    "timestamp": "2024-01-01T00:42:00Z"
+  },
+  {
+    "account": "admin_ops",
+    "alert_type": "Remote Service Execution",
+    "command": "psexec",
+    "dest_ip": "10.0.2.63",
+    "hostname": "server-3",
+    "ip": "10.0.2.50",
+    "mitre_technique": "T1021",
+    "timestamp": "2024-01-01T00:43:00Z"
+  },
+  {
+    "account": "admin_ops",
+    "alert_type": "Remote Service Execution",
+    "command": "psexec",
+    "dest_ip": "10.0.2.64",
+    "hostname": "server-4",
+    "ip": "10.0.2.50",
+    "mitre_technique": "T1021",
+    "timestamp": "2024-01-01T00:44:00Z"
+  },
+  {
+    "account": "admin_ops",
+    "alert_type": "Remote Service Execution",
+    "command": "psexec",
+    "dest_ip": "10.0.2.65",
+    "hostname": "server-5",
+    "ip": "10.0.2.50",
+    "mitre_technique": "T1021",
+    "timestamp": "2024-01-01T00:45:00Z"
+  },
+  {
+    "account": "admin_ops",
+    "alert_type": "Remote Service Execution",
+    "command": "psexec",
+    "dest_ip": "10.0.2.66",
+    "hostname": "server-6",
+    "ip": "10.0.2.50",
+    "mitre_technique": "T1021",
+    "timestamp": "2024-01-01T00:46:00Z"
+  },
+  {
+    "account": "admin_ops",
+    "alert_type": "Remote Service Execution",
+    "command": "psexec",
+    "dest_ip": "10.0.2.67",
+    "hostname": "server-7",
+    "ip": "10.0.2.50",
+    "mitre_technique": "T1021",
+    "timestamp": "2024-01-01T00:47:00Z"
+  }
+]

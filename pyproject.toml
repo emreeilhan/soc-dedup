@@ -1,0 +1,26 @@
+[project]
+name = "socdedup"
+version = "0.1.0"
+description = "Incident-level alert deduplication and blast radius analysis for SOC teams."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+authors = [{ name = "SOC Dedup" }]
+dependencies = [
+  "pydantic>=2.0",
+  "typer>=0.12",
+]
+
+[project.scripts]
+socdedup = "socdedup.cli:app"
+
+[tool.pytest.ini_options]
+addopts = "-q"
+testpaths = ["tests"]
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["socdedup"]
