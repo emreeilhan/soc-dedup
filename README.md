@@ -22,3 +22,9 @@ This tool bridges that gap.
 
 ## Status
 Early development (MVP).
+
+## Installation note (Python 3.13)
+On Python 3.13, editable installs may not always register the console script.
+If this occurs, use:
+  pip install .
+This does not affect runtime behavior.

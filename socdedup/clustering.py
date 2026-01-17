@@ -4,8 +4,10 @@ from dataclasses import dataclass, field
 from datetime import timedelta
 from typing import Iterable
 
-from socdedup.models import Alert, Incident
-from socdedup.blast_radius import analyze_incident
+from socdedup.blast_radius import compute_blast_radius
+from socdedup.confidence import assess_confidence
+from socdedup.models import Alert, EntitiesSummary, Incident
+from socdedup.reasoning import derive_signals
 
 
 @dataclass
@@ -79,13 +81,21 @@ def cluster_alerts(
 
     incidents: list[Incident] = []
     for cluster in clusters:
-        blast = analyze_incident(cluster.alerts)
+        blast = compute_blast_radius(cluster.alerts)
+        signals = derive_signals(cluster.alerts, blast)
+        confidence, reasoning = assess_confidence(signals, blast)
+        entities = EntitiesSummary(
+            hosts=set(cluster.hosts),
+            users=set(cluster.users),
+            ips=set(cluster.ips),
+        )
         incident = Incident(
             incident_id=cluster.incident_id,
             alerts=cluster.alerts,
-            techniques=cluster.techniques,
-            entities=blast["entities"],
-            confidence=blast["confidence"],
+            techniques=set(cluster.techniques),
+            entities=entities,
+            confidence=confidence,
+            reasoning=reasoning,
         )
         incidents.append(incident)
 

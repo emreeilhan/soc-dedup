@@ -8,8 +8,10 @@ import typer
 
 from socdedup.clustering import cluster_alerts
 from socdedup.ingest import ingest_csv, ingest_json
+from socdedup.models import Incident
 
 app = typer.Typer(add_completion=False)
+incidents_app = typer.Typer(add_completion=False)
 
 
 def _parse_time_window(value: str) -> timedelta:
@@ -69,6 +71,43 @@ def cluster(
             f"{incident.incident_id} {len(incident.alerts)} {hosts} {users} {ips} "
             f"{techniques} {incident.confidence.value}"
         )
+
+
+@incidents_app.command("show")
+def incidents_show(
+    incident_id: str,
+    explain: bool = typer.Option(False, "--explain"),
+    path: str = typer.Option("data/out/incidents.json", "--path"),
+) -> None:
+    """Show a single incident by ID."""
+    input_path = Path(path)
+    if not input_path.exists():
+        raise typer.BadParameter(f"incidents file not found: {input_path}")
+    payload = json.loads(input_path.read_text(encoding="utf-8"))
+    incidents = [Incident.model_validate(item) for item in payload]
+    for incident in incidents:
+        if incident.incident_id == incident_id:
+            typer.echo(f"Incident: {incident.incident_id}")
+            typer.echo(f"Confidence: {incident.confidence.value}")
+            if explain:
+                typer.echo("Reasoning:")
+                for line in incident.reasoning:
+                    typer.echo(f"- {line}")
+                privileged_users = {
+                    alert.user
+                    for alert in incident.alerts
+                    if alert.user and alert.user.lower().startswith("admin")
+                }
+                typer.echo(
+                    f"Blast radius: hosts={len(incident.entities.hosts)} "
+                    f"users={len(incident.entities.users)} "
+                    f"privileged_users={len(privileged_users)}"
+                )
+            return
+    raise typer.BadParameter(f"incident not found: {incident_id}")
+
+
+app.add_typer(incidents_app, name="incidents")
 
 
 if __name__ == "__main__":

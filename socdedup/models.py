@@ -24,6 +24,13 @@ class Alert(BaseModel):
     def ensure_utc(cls, value: Any) -> datetime:
         if isinstance(value, datetime):
             dt = value
+        elif isinstance(value, str):
+            text = value.strip()
+            if text.endswith("Z"):
+                text = text[:-1] + "+00:00"
+            dt = datetime.fromisoformat(text)
+        elif isinstance(value, (int, float)):
+            dt = datetime.fromtimestamp(value, tz=timezone.utc)
         else:
             raise ValueError("timestamp must be a datetime")
         if dt.tzinfo is None:
@@ -49,3 +56,4 @@ class Incident(BaseModel):
     techniques: set[str] = Field(default_factory=set)
     entities: EntitiesSummary = Field(default_factory=EntitiesSummary)
     confidence: Confidence = Confidence.LOW
+    reasoning: list[str] = Field(default_factory=list)

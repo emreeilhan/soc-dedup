@@ -35,3 +35,4 @@ def test_clustering_greedy_scoring():
     assert len(first.alerts) == 2
     assert len(second.alerts) == 1
     assert first.confidence.value in {"LOW", "MEDIUM", "HIGH"}
+    assert first.reasoning
