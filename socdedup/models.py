@@ -57,3 +57,11 @@ class Incident(BaseModel):
     entities: EntitiesSummary = Field(default_factory=EntitiesSummary)
     confidence: Confidence = Confidence.LOW
     reasoning: list[str] = Field(default_factory=list)
+    decision_replay: "DecisionReplay | None" = None
+
+
+class DecisionReplay(BaseModel):
+    action: str
+    urgency: str
+    justification: list[str] = Field(default_factory=list)
+    human_in_the_loop: bool = True

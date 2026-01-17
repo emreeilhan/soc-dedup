@@ -107,6 +107,32 @@ def incidents_show(
     raise typer.BadParameter(f"incident not found: {incident_id}")
 
 
+@incidents_app.command("replay")
+def incidents_replay(
+    incident_id: str,
+    path: str = typer.Option("data/out/incidents.json", "--path"),
+) -> None:
+    """Show decision replay for a single incident by ID."""
+    input_path = Path(path)
+    if not input_path.exists():
+        raise typer.BadParameter(f"incidents file not found: {input_path}")
+    payload = json.loads(input_path.read_text(encoding="utf-8"))
+    incidents = [Incident.model_validate(item) for item in payload]
+    for incident in incidents:
+        if incident.incident_id == incident_id:
+            if incident.decision_replay is None:
+                raise typer.BadParameter(f"decision replay not found: {incident_id}")
+            replay = incident.decision_replay
+            typer.echo(f"Action: {replay.action}")
+            typer.echo(f"Urgency: {replay.urgency}")
+            typer.echo("Justification:")
+            for line in replay.justification:
+                typer.echo(f"- {line}")
+            typer.echo(f"Human-in-the-loop: {replay.human_in_the_loop}")
+            return
+    raise typer.BadParameter(f"incident not found: {incident_id}")
+
+
 app.add_typer(incidents_app, name="incidents")
 
 

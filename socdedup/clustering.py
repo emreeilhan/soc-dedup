@@ -6,6 +6,7 @@ from typing import Iterable
 
 from socdedup.blast_radius import compute_blast_radius
 from socdedup.confidence import assess_confidence
+from socdedup.decision import assess_decision
 from socdedup.models import Alert, EntitiesSummary, Incident
 from socdedup.reasoning import derive_signals
 
@@ -84,6 +85,7 @@ def cluster_alerts(
         blast = compute_blast_radius(cluster.alerts)
         signals = derive_signals(cluster.alerts, blast)
         confidence, reasoning = assess_confidence(signals, blast)
+        decision_replay = assess_decision(signals, blast, confidence)
         entities = EntitiesSummary(
             hosts=set(cluster.hosts),
             users=set(cluster.users),
@@ -96,6 +98,7 @@ def cluster_alerts(
             entities=entities,
             confidence=confidence,
             reasoning=reasoning,
+            decision_replay=decision_replay,
         )
         incidents.append(incident)
 
